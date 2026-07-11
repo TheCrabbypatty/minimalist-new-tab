@@ -4,5 +4,11 @@
   "manifest_version": 3,
   "chrome_url_overrides": {
     "newtab": "clean_page.html"
-  }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["hello.svg", "profiles.png"],
+      "matches": ["<all_urls>"]
+    }
+  ]
 }
