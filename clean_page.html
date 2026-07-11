@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content="width = device-width, inital-scale = 1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+        <title>New Tab</title>
+        <style>    
+      
+       body {
+            color: white;
+            background-color: rgba(0, 0, 1, 0.93);
+            font-family: "Google Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 550;
+            font-style: normal;
+            font-variation-settings:
+            "GRAD" 0;
+        }   
+
+        input:focus {
+            outline: none;
+        }   
+
+        input {
+            border: transparent;
+            border-radius: 20px;
+            padding: 4px 15px;
+            margin: 2px;
+        }
+
+        #bar {
+            color: white;
+            background-color: rgba(255, 255, 255, 0.106);
+            font-size: 15px;
+            width: 45%;   
+            height: 35px; 
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #patty {
+            position: absolute;
+            top: 25%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #button {
+            border-radius: 5px;
+            color: white;
+            margin: 2px;
+            background-color: rgba(255, 255, 255, 0.045);
+            position: absolute;
+            top: 55%;
+            left: 45%;
+            transform: translate(-50%, -50%);
+            height: 35px;
+        }
+
+        #button:hover {
+            background-color: #3c4043;
+            border: 1px solid #5f6368;
+        }
+
+        #profile {
+            position: absolute;
+            top: 5%;
+            left: 97.5%;
+            transform: translate(-50%, -50%);
+        }
+        
+        #lucky {
+            padding: 4px 15px;
+            margin: 2px;
+            height: 35px;
+            border: transparent;
+            border-radius: 5px;
+            color: white;
+            margin: 2px;
+            background-color: rgba(255, 255, 255, 0.045);
+            position: absolute;
+            top: 55%;
+            left: 55%;
+            transform: translate(-50%, -50%);
+        }
+
+        #lucky:hover {
+            background-color: #3c4043;
+            border: 1px solid #5f6368;
+        }
+
+        </style>
+    </head>
+    <body>    
+        <a href = "https://mail.google.com"><img id = "profile" src = "profiles.png" alt = "Profile" width = 50px></a>
+        <img id = "patty" src = "hello.svg" alt="Patty" width = 400px>  
+        <form action="https://google.com/search" method="GET">
+            <input id = "bar" type="text" name="q" autocomplete="off" autocorrect="off" spellcheck="false" placeholder="Ask Patty">
+            <input id = "button" type="submit" value="Patty Search">
+            <button id = "lucky" type="submit" name="btnI" value="I">I'm Feeling Patty</button>
+        </form>
+    </body>
+</html>
