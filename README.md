@@ -30,3 +30,10 @@ Because this is a custom open-source extension, you install it directly using Go
 
 ---
 *Created with care to keep the web clean and distraction-free.*
+
+
+## Last Updated
+
+<!-- TIMESTAMP_START -->
+_Last updated: 2026-08-30 18:43 UTC_
+<!-- TIMESTAMP_END -->
