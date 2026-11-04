@@ -35,5 +35,5 @@ Because this is a custom open-source extension, you install it directly using Go
 ## Last Updated
 
 <!-- TIMESTAMP_START -->
-_Last updated: 2026-11-04 09:52 UTC_
+_Last updated: 2026-11-04 17:44 UTC_
 <!-- TIMESTAMP_END -->
